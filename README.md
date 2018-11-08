@@ -1,9 +1,3 @@
 # [Andrew Groe - Portfolio](AndrewGroe.github.io)
 
-[Portfolio Item](http://startbootstrap.com/template-overviews/portfolio-item/) is an individual portfolio item template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-## Preview
-
-[![Portfolio Item Preview](https://startbootstrap.com/assets/img/templates/portfolio-item.jpg)](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)**
+[AndrewGroe.github.io](AndrewGroe.github.io) is a portfolio site that aims to showcase Android development projects hosted here on Github. There's not much else here but some boring code. Head on over to the site via any of the links on this page to see some apps in action.
