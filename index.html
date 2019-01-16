@@ -1,104 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Andrew Groe - Portfolio</title>
+  <title>Andrew Groe - Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/portfolio-item.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Andrew Groe</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Portfolio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/AndrewGroe?tab=repositories">Github</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Page Content -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
+      <a class="navbar-brand" href="index.html">Andrew Groe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Portfolio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/AndrewGroe?tab=repositories">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Portfolio
-        <small>Android Development</small>
-      </h1>
+  <!-- Page Content -->
+  <div class="container">
 
-      <!-- Portfolio Item Row -->
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4">Portfolio
+      <small>Android Development</small>
+    </h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+      <div class="col-md-8">
+        <img class="img-fluid" src="images/SALEr_parts.png" alt="" style="width:360px; height:640px">
+        <img class="img-fluid" src="images/SALEr_games.png" alt="" style="width:360px; height:640px">
+      </div>
+
+      <div class="col-md-4">
+
+        <h3 class="my-3">SALE/r</h3>
+        <h6><a href="https://github.com/AndrewGroe/SALEr">View code on Github</a></h6>
+
+        <p>Android app for browsing popular tech sales subreddits.<br>
+          Backend uses <a href="https://square.github.io/retrofit/">Retrofit</a> and <a href="https://github.com/google/gson">Gson</a> to fetch and convert JSON response from <a href="https://www.reddit.com/dev/api/">Reddit API</a>.<br>
+          Features a dark theme to conserve battery.
+        </p>
+        <h3 class="my-3">Project Details</h3>
+        <ul>
+          <li>Retrofit</li>
+          <li>Gson</li>
+          <li>Reddit API (Rest)</li>
+          <li>RecyclerView</li>
+          <li>Material Design</li>
+          <li>BottomNavigationView</li>
+          <li>Coordinator Layout with Scroll Behaviors</li>
+          <li>MVP Architecture</li>
+        </ul>
+      </div>
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Other Projects</h3>
+</div>
       <div class="row">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="images/SALEr_parts.png" alt="" style="width:360px; height:640px">
-          <img class="img-fluid" src="images/SALEr_games.png" alt="" style="width:360px; height:640px">
+        <div class="col-md-3 col-sm-6 mb-4">
+
+          <a href="Tip Tree.html">
+            <h6>TipTree</h6>
+            <video class="center" width="240" muted autoplay="autoplay" loop="true">
+
+              <source src="images/TipTreeDemoLoop.webm" type="video/webm">
+
+              Sorry, your browser doesn't support embedded videos.
+            </video>
+
+          </a>
         </div>
+</div>
 
-        <div class="col-md-4">
-
-          <h3 class="my-3">SALE/r</h3>
-          <h6><a href="https://github.com/AndrewGroe/SALEr">View code on Github</a></h6>
-
-          <p>Android app for browsing popular tech sales subreddits.<br>
-            Backend uses <a href="https://square.github.io/retrofit/">Retrofit</a> and <a href="https://github.com/google/gson">Gson</a> to fetch and convert JSON response from <a href="https://www.reddit.com/dev/api/">Reddit API</a>.<br>
-            Features a dark theme to conserve battery.
-          </p>
-          <h3 class="my-3">Project Details</h3>
-          <ul>
-            <li>Retrofit</li>
-            <li>Gson</li>
-            <li>Reddit API (Rest)</li>
-            <li>RecyclerView</li>
-            <li>Material Design</li>
-            <li>BottomNavigationView</li>
-            <li>Coordinator Layout with Scroll Behaviors</li>
-            <li>MVP Architecture</li>
-          </ul>
-        </div>
 
       </div>
-
     </div>
-    <br>
-    <br>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Andrew Groe 2018</p>
+    </div>
     <!-- /.container -->
+  </footer>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Andrew Groe 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
+</body>
 
 </html>
